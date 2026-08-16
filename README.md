@@ -1,2 +1,1 @@
-# Project-1
-Hello Everyone,
+# My Java Project
