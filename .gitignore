@@ -1,6 +1,4 @@
-*.class
-*.jar
-target/
-.idea/
+node_modules/
 *.log
-*.class
+.DS_Store
+.env
