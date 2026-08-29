@@ -1,0 +1,176 @@
+Running from: C:\Users\User\Project-1\jenkins.war
+webroot: C:\Users\User\.jenkins\war
+2026-08-22 12:03:37.465+0000 [id=1]	INFO	winstone.Logger#logInternal: Beginning extraction from war file
+2026-08-22 12:03:37.519+0000 [id=1]	WARNING	o.e.j.ee9.nested.ContextHandler#setContextPath: Empty contextPath
+2026-08-22 12:03:37.593+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+9-LTS-211
+2026-08-22 12:03:38.290+0000 [id=1]	INFO	o.e.j.e.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.ee9.jsp.JettyJspServlet
+2026-08-22 12:03:38.337+0000 [id=1]	INFO	o.e.j.s.DefaultSessionIdManager#doStart: Session workerName=node0
+2026-08-22 12:03:38.702+0000 [id=1]	INFO	hudson.WebAppMain#contextInitialized: Jenkins home directory: C:\Users\User\.jenkins found at: $user.home/.jenkins
+2026-08-22 12:03:38.789+0000 [id=1]	INFO	o.e.j.s.handler.ContextHandler#doStart: Started oeje9n.ContextHandler$CoreContextHandler@1bdbf9be{Jenkins v2.568.2,/,b=file:///C:/Users/User/.jenkins/war/,a=AVAILABLE,h=oeje9n.ContextHandler$CoreContextHandler$CoreToNestedHandler@1e7f2e0f{STARTED}}
+2026-08-22 12:03:38.823+0000 [id=1]	INFO	o.e.j.server.AbstractConnector#doStart: Started oejs.ServerConnector@47dd778{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2026-08-22 12:03:38.825+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: Started oejs.Server@15515c51{STARTING}[12.1.8,sto=0] @1232ms
+2026-08-22 12:03:38.825+0000 [id=41]	INFO	winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2026-08-22 12:03:38.943+0000 [id=39]	INFO	jenkins.model.Jenkins#<init>: Starting version 2.568.2
+2026-08-22 12:03:39.023+0000 [id=48]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2026-08-22 12:03:39.076+0000 [id=60]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2026-08-22 12:03:39.899+0000 [id=60]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2026-08-22 12:03:39.899+0000 [id=53]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2026-08-22 12:03:39.899+0000 [id=51]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2026-08-22 12:03:40.145+0000 [id=56]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+2026-08-22 12:03:40.151+0000 [id=58]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2026-08-22 12:03:40.152+0000 [id=57]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2026-08-22 12:03:40.152+0000 [id=49]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2026-08-22 12:03:40.191+0000 [id=47]	INFO	jenkins.install.SetupWizard#init: 
+[CRLF]> 
+[CRLF]> *************************************************************
+[CRLF]> *************************************************************
+[CRLF]> *************************************************************
+[CRLF]> 
+[CRLF]> Jenkins initial setup is required. An admin user has been created and a password generated.
+[CRLF]> Please use the following password to proceed to installation:
+[CRLF]> 
+[CRLF]> 99935acbba1a409386a43a32dbbe2eea
+[CRLF]> 
+[CRLF]> This may also be found at: C:\Users\User\.jenkins\secrets\initialAdminPassword
+[CRLF]> 
+[CRLF]> *************************************************************
+[CRLF]> *************************************************************
+[CRLF]> *************************************************************
+
+2026-08-22 12:03:45.017+0000 [id=47]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2026-08-22 12:03:45.027+0000 [id=39]	INFO	hudson.lifecycle.Lifecycle#onReady: Jenkins is fully up and running
+2026-08-23 12:03:43.955+0000 [id=401]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+ernal: Beginning extraction from war file
+2026-08-22 12:08:06.436+0000 [id=1]	WARNING	o.e.j.ee9.nested.ContextHandler#setContextPath: Empty contextPath
+2026-08-22 12:08:06.513+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+9-LTS-211
+2026-08-22 12:08:06.522+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStop: Stopped oejs.Server@7b02881e{STOPPING}[12.1.8,sto=0]
+2026-08-22 12:08:06.522+0000 [id=1]	INFO	winstone.Logger#logInternal: Jetty shutdown successfully
+java.io.IOException: Failed to start Jetty
+	at Jenkins Main ClassLoader//winstone.Launcher.<init>(Launcher.java:197)
+	at Jenkins Main ClassLoader//winstone.Launcher.main(Launcher.java:493)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at executable.Main.main(Main.java:332)
+Caused by: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8082
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:313)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.Server.lambda$doStart$0(Server.java:617)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.Server.doStart(Server.java:613)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:92)
+	at Jenkins Main ClassLoader//winstone.Launcher.<init>(Launcher.java:193)
+	... 4 more
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:573)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+	... 19 more
+2026-08-22 12:08:06.522+0000 [id=1]	SEVERE	winstone.Logger#logInternal: Container startup failed
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:573)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+Caused: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8082
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:313)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.Server.lambda$doStart$0(Server.java:617)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.Server.doStart(Server.java:613)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:92)
+	at Jenkins Main ClassLoader//winstone.Launcher.<init>(Launcher.java:193)
+Caused: java.io.IOException: Failed to start Jetty
+	at Jenkins Main ClassLoader//winstone.Launcher.<init>(Launcher.java:197)
+	at Jenkins Main ClassLoader//winstone.Launcher.main(Launcher.java:493)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at executable.Main.main(Main.java:332)
+Running from: C:\Users\User\Project-1\jenkins.war
+webroot: C:\Users\User\.jenkins\war
+2026-08-22 12:08:28.522+0000 [id=1]	INFO	winstone.Logger#logInternal: Beginning extraction from war file
+2026-08-22 12:08:28.570+0000 [id=1]	WARNING	o.e.j.ee9.nested.ContextHandler#setContextPath: Empty contextPath
+2026-08-22 12:08:28.651+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-12.1.8; built: 2026-04-01T01:09:18.991Z; git: c9cdc9aaa434a3665b8a53b4d1cc3684992da649; jvm 21.0.11+9-LTS-211
+2026-08-22 12:08:28.664+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStop: Stopped oejs.Server@7b02881e{STOPPING}[12.1.8,sto=0]
+2026-08-22 12:08:28.664+0000 [id=1]	INFO	winstone.Logger#logInternal: Jetty shutdown successfully
+java.io.IOException: Failed to start Jetty
+	at Jenkins Main ClassLoader//winstone.Launcher.<init>(Launcher.java:197)
+	at Jenkins Main ClassLoader//winstone.Launcher.main(Launcher.java:493)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at executable.Main.main(Main.java:332)
+Caused by: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8082
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:313)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.Server.lambda$doStart$0(Server.java:617)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.Server.doStart(Server.java:613)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:92)
+	at Jenkins Main ClassLoader//winstone.Launcher.<init>(Launcher.java:193)
+	... 4 more
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:573)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+	... 19 more
+2026-08-22 12:08:28.664+0000 [id=1]	SEVERE	winstone.Logger#logInternal: Container startup failed
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:573)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+Caused: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8082
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:313)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.Server.lambda$doStart$0(Server.java:617)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.Server.doStart(Server.java:613)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:92)
+	at Jenkins Main ClassLoader//winstone.Launcher.<init>(Launcher.java:193)
+Caused: java.io.IOException: Failed to start Jetty
+	at Jenkins Main ClassLoader//winstone.Launcher.<init>(Launcher.java:197)
+	at Jenkins Main ClassLoader//winstone.Launcher.main(Launcher.java:493)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at executable.Main.main(Main.java:332)
