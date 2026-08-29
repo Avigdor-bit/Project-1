@@ -1,0 +1,81 @@
+Create the Project:
+
+Create the Project
+Project-1
+
+What to ADD inside your new Project-1
+
+Section in Jenkins:
+
+1.
+General:  
+Project
+First successful build of the Project-1 epository
+{Add a Description: e.g., "My first automated build project."}
+{So your IT manager (you!) knows what this project does at a glance}
+
+2.
+Source Code Management:  
+Git
+Repositories
+Repository URL:
+git@github.com:Avigdor-bit/Project-1.git
+Credentials:
+Avigdor-bit****
+Branches to build:*/main
+{Select Git and paste your repository URL (e.g., https://github.com/Avigdor-bit/your-repo.git).}
+{So Jenkins knows where your code lives.}
+
+3.                                              
+Build Triggers:    
+{Check "Poll SCM" and enter H/5 * * * * (checks every 5 minutes) OR check "GitHub hook trigger" if you use GitHub.}                                                                       
+{So the project automatically runs when code changes.}
+
+4.
+Build Environment:
+
+{Check "Delete workspace before build starts"}
+{Ensures you always start with a clean folder, avoiding weird caching errors.}
+{Click "Add build step" > "Execute Shell" (Linux/Mac) or "Execute Windows batch command" (Windows).}
+
+5.
+Build Steps (The most important part):
+Execute shell:
+
+#!/bin/bash
+set -eou pipefail
+echo "== Starting Build =="
+pwd
+echo "Current directory: $(pwd)"
+ls -la
+echo "== Setting up virtual environment =="
+python3 -m venv venv
+source venv/bin/activate
+# Rest of your script...
+
+
+{Inside the command box, add your build command.}
+{This is the actual command that builds your code.}
+{Example for Java: mvn clean compile
+Example for Node.js: npm install
+Example for Python: python -m py_compile my_script.py}
+
+6.
+Post-build Actions:
+
+{Click "Add post-build action" > "Archive the artifacts".}
+{Saves the final output file so you can download it later.}
+{n the "Files to archive" box, type **/target/*.jar (for Java) or **/dist/*.zip (for web apps).}
+
+
+
+
+
+
+
+
+
+
+
+
+
